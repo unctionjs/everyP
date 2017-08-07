@@ -1,13 +1,26 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, prefer-promise-reject-errors */
 import {test} from "tap"
 
-import tempLate from "./"
+import everyP from "./"
 
-test(({same, end}) => {
-  same(
-    tempLate(true),
-    false
-  )
-
-  end()
+test(({same}) => {
+  return everyP([
+    Promise.reject("a"),
+    Promise.resolve("b"),
+    Promise.reject("c"),
+    Promise.resolve("d"),
+  ])
+    .then((resolution) => same(
+      resolution,
+      [
+        [
+          "b",
+          "d"
+        ],
+        [
+          "a",
+          "c"
+        ]
+      ]
+    ))
 })
