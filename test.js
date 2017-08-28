@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, prefer-promise-reject-errors */
 import {test} from "tap"
 
-import everyP from "./source"
+import everyP from "./"
 
 test(({same}) => {
   return everyP([
