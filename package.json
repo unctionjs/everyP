@@ -52,8 +52,8 @@
   "dependencies": {
     "@unction/allp": "2.5.0",
     "@unction/couple": "2.5.0",
-    "@unction/mapvalues": "3.19.0",
-    "@unction/reducevalues": "2.20.0",
+    "@unction/mapvalues": "3.20.0",
+    "@unction/reducevalues": "2.21.0",
     "@unction/thencatchp": "2.5.0",
     "@unction/thenp": "2.5.0"
   },
