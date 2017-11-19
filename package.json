@@ -50,12 +50,12 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/allp": "2.5.0",
-    "@unction/couple": "2.5.0",
-    "@unction/mapvalues": "3.33.0",
-    "@unction/reducevalues": "2.33.0",
-    "@unction/thencatchp": "2.5.0",
-    "@unction/thenp": "2.5.0"
+    "@unction/allp": "2.6.0",
+    "@unction/couple": "2.6.0",
+    "@unction/mapvalues": "3.34.0",
+    "@unction/reducevalues": "2.34.0",
+    "@unction/thencatchp": "2.6.0",
+    "@unction/thenp": "2.6.0"
   },
   "nyc": {
     "require": [
