@@ -53,7 +53,7 @@
     "@unction/allp": "2.8.0",
     "@unction/couple": "2.8.0",
     "@unction/mapvalues": "3.45.1",
-    "@unction/reducevalues": "2.43.0",
+    "@unction/reducevalues": "2.44.0",
     "@unction/thencatchp": "2.8.0",
     "@unction/thenp": "2.8.0"
   },
