@@ -52,12 +52,12 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/allp": "2.8.0",
-    "@unction/couple": "2.8.0",
+    "@unction/allp": "3.0.0",
+    "@unction/couple": "3.0.0",
     "@unction/mapvalues": "4.0.0",
-    "@unction/reducevalues": "2.44.0",
-    "@unction/thencatchp": "2.8.0",
-    "@unction/thenp": "2.8.0"
+    "@unction/reducevalues": "3.0.0",
+    "@unction/thencatchp": "3.0.0",
+    "@unction/thenp": "3.0.0"
   },
   "nyc": {
     "require": [
