@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> (Array<any | Promise<any>>) -> Promise<[ResolvedPromisesType, RejectedPromisesType]>
+> (Array<any | Promise<any>>) => Promise<[ResolvedPromisesType, RejectedPromisesType]>
 
 Returns both resolved and rejected promises as distinct lists.
 
