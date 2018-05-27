@@ -1,4 +1,4 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, prefer-promise-reject-errors */
+/* eslint-disable prefer-promise-reject-errors */
 import {test} from "tap"
 
 import everyP from "./index"
