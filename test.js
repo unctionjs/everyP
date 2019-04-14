@@ -1,7 +1,7 @@
 /* eslint-disable prefer-promise-reject-errors */
-import {test} from "tap"
+import {test} from "tap";
 
-import everyP from "./index"
+import everyP from "./index";
 
 test(({same}) => {
   return everyP([
@@ -15,12 +15,12 @@ test(({same}) => {
       [
         [
           "b",
-          "d"
+          "d",
         ],
         [
           "a",
-          "c"
-        ]
+          "c",
+        ],
       ]
-    ))
-})
+    ));
+});

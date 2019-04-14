@@ -5,7 +5,8 @@ import allP from "@unction/allp";
 import thenP from "@unction/thenp";
 import couple from "@unction/couple";
 const initial = [[], []];
-export default function everyP(promises) {
+
+export default function everyP (promises) {
   return thenP(reduceValues(([resolved, rejected]) => ([state, value]) => {
     if (state === "resolved") {
       return couple([...resolved, value])(rejected);
