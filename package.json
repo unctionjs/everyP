@@ -51,12 +51,12 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/allp": "4.0.1",
-    "@unction/couple": "4.0.1",
-    "@unction/mapvalues": "10.2.0",
-    "@unction/reducevalues": "8.2.0",
-    "@unction/thencatchp": "4.1.0",
-    "@unction/thenp": "4.1.0",
+    "@unction/allp": "4.0.2",
+    "@unction/couple": "4.0.2",
+    "@unction/mapvalues": "10.3.0",
+    "@unction/reducevalues": "8.3.0",
+    "@unction/thencatchp": "4.1.1",
+    "@unction/thenp": "4.1.1",
     "core-js": "3.0.1"
   },
   "nyc": {
