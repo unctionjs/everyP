@@ -56,8 +56,7 @@
     "@unction/mapvalues": "10.5.0",
     "@unction/reducevalues": "8.5.0",
     "@unction/thencatchp": "4.2.0",
-    "@unction/thenp": "4.2.0",
-    "core-js": "3.0.1"
+    "@unction/thenp": "4.2.0"
   },
   "nyc": {
     "require": [
