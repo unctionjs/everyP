@@ -1,7 +1,7 @@
 /* eslint-disable prefer-promise-reject-errors */
 import {test} from "tap";
 
-import everyP from "./index";
+import everyP from "./";
 
 test(({same}) => {
   return everyP([
