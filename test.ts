@@ -1,5 +1,5 @@
 /* eslint-disable prefer-promise-reject-errors */
-import everyP from "./index.ts";
+import everyP from "./index";
 
 test(() => {
   return everyP([
