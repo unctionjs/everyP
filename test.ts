@@ -1,7 +1,7 @@
 /* eslint-disable prefer-promise-reject-errors */
 import everyP from "./index";
 
-test(() => {
+test("works", () => {
   return everyP([
     Promise.reject("a"),
     Promise.resolve("b"),
