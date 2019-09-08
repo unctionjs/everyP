@@ -1,6 +1,6 @@
 {
   "name": "@unction/everyp",
-  "version": "11.7.1",
+  "version": "11.7.2",
   "description": "Return resolved and rejected promises as two arrays",
   "keywords": [
     "unction",
