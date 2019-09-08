@@ -53,12 +53,12 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/allp": "4.1.1",
-    "@unction/couple": "4.1.1",
-    "@unction/mapvalues": "10.6.0",
-    "@unction/reducevalues": "8.7.0",
-    "@unction/thencatchp": "4.2.1",
-    "@unction/thenp": "4.2.1"
+    "@unction/allp": "4.1.2",
+    "@unction/couple": "4.1.2",
+    "@unction/mapvalues": "10.8.0",
+    "@unction/reducevalues": "8.8.0",
+    "@unction/thencatchp": "4.2.2",
+    "@unction/thenp": "4.2.2"
   },
   "files": [
     "index.ts",
