@@ -69,7 +69,7 @@
     "@unction/allp": "^4.1.4",
     "@unction/couple": "^4.1.4",
     "@unction/mapvalues": "^10.12.0",
-    "@unction/reducevalues": "^8.12.0",
+    "@unction/reducevalues": "^8.13.0",
     "@unction/thencatchp": "^4.2.4",
     "@unction/thenp": "^4.2.4"
   }
